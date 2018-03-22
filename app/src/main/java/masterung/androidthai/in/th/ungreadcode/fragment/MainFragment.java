@@ -37,10 +37,19 @@ public class MainFragment extends Fragment{
         registerController();
 
 //        Login Controller
-        loginController();
+       loginController();
+
+       // test();
 
 
     }   //Main Metod
+
+    private void test() {
+
+        String[] loginStrings = new String[]{"", "", ""}
+
+
+    }
 
     private void loginController() {
 
