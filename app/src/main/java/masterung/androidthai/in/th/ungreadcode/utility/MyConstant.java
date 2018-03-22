@@ -7,9 +7,22 @@ package masterung.androidthai.in.th.ungreadcode.utility;
 public class MyConstant {
 
     //    About url
+    private String urlGetAlluserString = "http://androidthai.in.th/mar/getAllUser.php";
     private String urlPostUserString = "http://androidthai.in.th/mar/postUser.php";
+
+    //    About Array
+    private String[] LoginString = new String[]{"id", "Name", "User", "Password"};
+
+
+    public String[] getLoginString() {
+        return LoginString;
+    }
 
     public String getUrlPostUserString() {
         return urlPostUserString;
+    }
+
+    public String getUrlGetAlluserString() {
+        return urlGetAlluserString;
     }
 }   //Main Class
